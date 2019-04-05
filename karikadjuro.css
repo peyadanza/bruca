@@ -1,0 +1,31 @@
+.prvi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.form {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    background-color: beige;
+}
+button {
+    height: 100px;
+    color: red;
+    background-color: black;
+}
+input {
+    height: 100px;
+    font-size: 40px;
+}
+
+li:hover {
+    transform: scale(1.05)
+}
+
+li {
+    background: red;
+    color: green;
+    transition: all linear 0.5s;
+}
